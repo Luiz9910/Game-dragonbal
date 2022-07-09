@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url('imagens/espaco.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+div#jiren {
+    background-image: url('imagens/U11_jiren.webp');
+    height: 400px;
+    width: 200px;
+    position: absolute;
+    left: 70%;
+    top: 17vh;
+}
+
+div#goku {
+    background-image: url('imagens/goku-5660850_1280.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    left: 15%;
+    top: 18vh;
+}
+
+
+p#vidajiren {
+    background-color: green;
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    left: 60%;
+    top: 6vh;
+    border-radius: 10px;
+    font-weight: bolder;
+    position: absolute;
+}
+
+p.vidagoku {
+    background-color: green;
+    width: 500px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bolder;
+    position: absolute;
+    left: 5%;
+    top: 6vh;
+}
+
+input {
+    position: absolute;
+    top: 75vh;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    height: 50px;
+    width: 80px;
+}
+
+#attack {
+    margin-left: 90px;
+}
+
+#super {
+    margin-left: 179px;
+}
